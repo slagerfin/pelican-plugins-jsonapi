@@ -7,12 +7,11 @@ jsonapi is a pelican generator which exports pelican's pages and articles to a s
 Structure of the API in output directory is currently following:
 - output/jsonapi/
   - index.json
-  - pages/
-    - page-title.json // files are named after slug attribute
-    - another-page-title.json
   - articles/
-    - article-title.json
-    - another-article-title.json
+    - foo.json
+  - pages/
+    - bar.json
+
 
 Currently index.json file contains basic data of pages and articles:
 <pre><code>
@@ -29,7 +28,7 @@ Currently index.json file contains basic data of pages and articles:
   "pages": [
     {
       "title": "Bar",
-      "url": "pages/about-me.json",
+      "url": "pages/bar.json",
       "author": "Samuli Lager",
       "summary": "My first page!",
     },
