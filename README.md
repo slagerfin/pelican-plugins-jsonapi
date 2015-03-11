@@ -15,7 +15,7 @@ Structure of the API in output directory is currently following:
     - another-article-title.json
 
 Currently index.json file contains basic data of pages and articles:
-<pre>
+<pre><code>
 {
   "articles": [
     {
@@ -23,7 +23,7 @@ Currently index.json file contains basic data of pages and articles:
       "url": "articles/foo.json",
       "date": "2015-02-11 09:20:00+01:00",
       "author": "Samuli Lager",
-      "summary": "<p>My first article!</p>"
+      "summary": "My first  article!",
     },
   ],
   "pages": [
@@ -31,8 +31,8 @@ Currently index.json file contains basic data of pages and articles:
       "title": "Bar",
       "url": "pages/about-me.json",
       "author": "Samuli Lager",
-      "summary": "<p>My first page!</p>"
+      "summary": "My first page!",
     },
   ]
 }
-</pre>
+</code></pre>
